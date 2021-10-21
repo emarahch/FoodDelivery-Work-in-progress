@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Sign in  </title>
+  <link rel="stylesheet" href="SignInStyle.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans">
+
+  <style>
+  body {
+  font-family: "Fira+Sans", sans-serif;
+  }
+  </style>
+
+    </head>
+    <body>
+      <nav>
+      <img src ="images/menu.png"class="menu-img">
+      <a href="index.html"><img src="images/LogoMakr-0fYx9F.png"class="logoImg">
+        <div class= "links">
+           <ul>
+           <li><a href="SignUp.html">Sign Up</a></li>
+           <li><a href="SignIn.html">Login</a></li>
+           </ul>
+        </div>
+
+      </nav>
+
+  <div class="container">
+<p class="signin">Sign In</p>
+      <form>
+        <label for="Email"> Email: </label><br>
+        <input type="text" id="Email" name="Email"><br>
+        <label for="Password"> Password: </label><br>
+        <input type="Password" id="Password" name="Password"><br>
+        <input type="checkbox" onclick="visibility()"> Show Password
+        <button type="button"> Sign In</button>
+      </form>
+      <!--W3Schools helped with script-->
+
+      <script>
+      function visibility() {
+        var x = document.getElementById("Password");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+      </script>
+  </div>
+      </body>
+    </html>

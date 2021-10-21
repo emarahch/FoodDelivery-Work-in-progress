@@ -1,0 +1,119 @@
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+nav{
+background-color:white;
+width: 100%;
+height: 8%;
+margin:auto;
+display:flex;
+align-items: center;
+justify-content: space-between;
+font-size: 15px;
+}
+
+.menu-img{
+margin-left: 20px;
+}
+.logoImg{
+  width:200px;
+  margin-right:800px;
+}
+
+.links ul{
+text-align: right;
+margin:10px 30px;
+}
+.links ul li{
+background-color: white;
+list-style: none;
+text-align: center;
+display:inline-block;
+height: 22px;
+width:55px;
+border: 1px;
+border-radius: 10px;
+box-sizing: border-box;
+margin: 10px 30px;
+}
+.links ul li a{
+color:black;
+text-decoration: none;
+}
+.links{
+text-align: right;
+color:black;
+}
+
+.container{
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 500px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+body{
+
+  background:white;
+  background-image:url(images/inside-weather-RU8eTK5COyE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.container form{
+  width:250px;
+  text-align:left;
+  color:black;
+  position: absolute;
+  margin-bottom: 50px;
+  margin-left: 46px;
+  padding:50px;
+}
+
+input[type=text] {
+  width:200px;
+  height: 30px;
+  box-sizing: border-box;
+  background: rgba(136, 126, 126, 0.04);
+  border: solid 1px rgba(0, 0, 0, 0.2);;
+  margin-bottom: 10px;
+}
+
+input[type=password] {
+  width:200px;
+  height: 30px;
+  box-sizing: border-box;
+  background: rgba(136, 126, 126, 0.04);
+  border: solid 1px rgba(0, 0, 0, 0.2);;
+  margin-bottom: 10px;
+}
+
+
+
+button{
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2em;
+  color:white;
+  background: linear-gradient(to right,blue, lightblue);
+  margin-left:40%;
+  margin-top: 90%;
+  padding:5px;
+  padding-left: 5%;
+  padding-right:5%;
+}
+
+.signin{
+        text-align: center;
+        padding-top: 8%;
+        font-weight: bold;
+        font-size: 23px;
+      }
